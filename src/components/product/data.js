@@ -113,14 +113,14 @@ const list = [
         amount: 1,
     },
     {
-        id: "5",
+        id: "15",
         title: "Redmi Note 11",
         price: 16385,
         img: Note11,
         amount: 1,
     },
     {
-        id: "10",
+        id: "16",
         title: "Infinix Note 12 5G",
         price: 13999,
         img: infinixnote12,
