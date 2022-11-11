@@ -34,18 +34,18 @@ const Contact = () => {
       <div class="right-side">
         <div class="topic-text">Send us a message</div>
         
-      <form action="#">
+      <form action="https://formspree.io/f/mqkjwora" method='post'>
         <div class="input-box">
-          <input type="text" placeholder="Enter your name" />
+          <input type="text" placeholder="Enter your name" name='Username' />
         </div>
         <div class="input-box">
-          <input type="text" placeholder="Enter your email" />
+          <input type="text" placeholder="Enter your email" name='Email' />
         </div>
         <div class="input-box message-box">
-          <textarea type="text" placeholder="Enter Your Message"  />
+          <textarea type="text" placeholder="Enter Your Message" name='Message' />
           </div>
         <div class="button">
-          <input type="button" value="Send Now" />
+       <button type='submit' className='send_button'>Submit</button>
         </div>
       </form>
     </div>

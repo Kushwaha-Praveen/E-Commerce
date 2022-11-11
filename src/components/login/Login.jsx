@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../css/Login.css'
 import { BiKey } from "react-icons/bi";
-import loginimage from '../../images/loginimage.jpg'
+import { Link, NavLink } from 'react-router-dom';
 
 const Login = () => {
   return (
@@ -19,7 +19,7 @@ const Login = () => {
         <br/>
         <input type="password" placeholder='Password' className='login_password' required/>
         <br/>
-        <button action="submit" className='login_submit' > <BiKey/> Login </button>
+      <NavLink to='/'> <button action="submit" className='login_submit' > <BiKey/> Login </button></NavLink> 
     </form>
 </div>
 

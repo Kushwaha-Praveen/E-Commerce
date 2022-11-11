@@ -143,4 +143,18 @@
 .contact_head{
   text-align: center;
 }
+.send_button{
+  background-color: #3e2093;
+  color: #fff;
+  border-radius: 10px;
+  width: 95px;
+  height: 40px;
+  letter-spacing: 2px;
 
+}
+.send_button:hover{
+  cursor: pointer;
+  background-color: #4f2caf;
+  transition: 0.2s;
+  letter-spacing: 3px;
+}
