@@ -85,12 +85,17 @@ nav .nav_:hover:after {width: 100%;}
   nav li:first-of-type {margin-left: 0;}
 }
 @media screen and (max-width: 550px) {
-nav {overflow: visible;}
+nav {
+  overflow: visible;
+}
 nav li {
-  display: block;
+  font-size: 12px;
+  margin-top: -10px;
+  padding-top: -10px;
+  /* display: block;
   margin: 0;
   height: 40px;
-  line-height: 40px;
+  line-height: 40px; */
 }
 nav li:hover {background: rgba(0,0,0,.1);}
 nav .nav_:after {content: none;}

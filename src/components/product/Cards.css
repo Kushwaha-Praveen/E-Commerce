@@ -2,6 +2,7 @@
     margin: 20px;
     display: flex;
     position: relative;
+    
     flex-direction: column;
     width: 250px;
     height: 450px;
@@ -10,7 +11,7 @@
     /* border-width: 2px; */
     /* border-style: solid; */
     box-shadow: 3px 3px 10px #888888;
-   background-color: #e0e0e0;
+   background-color: #eeeeee;
 }
 .cards:hover{
     cursor: pointer;
@@ -47,7 +48,9 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-left: 70px;
 }
+
 hr{
     width: 100%;
     color: black;
@@ -73,6 +76,13 @@ margin: 22px;
 }
 .like_cards{
  
-  
+  /* border-style: solid;
+  border: black; */
 font-size: 25px;
 }
+
+/* @media screen and (max-width: 550px){
+    .cards{
+    ;
+    }
+}  */

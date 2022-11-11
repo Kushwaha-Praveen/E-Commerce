@@ -1,0 +1,17 @@
+.login_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_email{
+width: 200px;
+height: 25px;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+.login_password{
+    width: 200px;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
