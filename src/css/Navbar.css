@@ -63,10 +63,15 @@ nav .nav_:after {
   position: absolute;
   left: 0;
   bottom: 15px;
-  background: #868686;
+  font-weight: bold;
+  background: #3e2093;
   transition: width .5s linear;  
 }
 nav .nav_:hover:after {width: 100%;}
+.nav_:hover{
+ color: #3e2093;
+ font-weight: 400;
+}
 
 @media screen and (max-width: 690px) {
   
@@ -90,39 +95,5 @@ nav li {
 nav li:hover {background: rgba(0,0,0,.1);}
 nav .nav_:after {content: none;}
 }
-.navbar_btn{
 
-  display: none;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-}
-.icon[name="close_outline"]{
-  display: none;
-}
-.close_outline{
-  display: none;
-}
-
-@media( max-width: 768px){
-  .navbar_btn{
-    display: inline-block;
-    z-index: 9999;
-    border: #0d95ca;
-  }
-  .icon{
-    font-size: 3rem;
-    color: #0d95ca;
-
-  }
-}
-.active .icon{
-  display: none;
-  font-size: 3rem;
-  position: absolute;
-  top: 30%;
-  right: 10%;
-  color: #0d95ca;
-  z-index: 9999;
-}
   

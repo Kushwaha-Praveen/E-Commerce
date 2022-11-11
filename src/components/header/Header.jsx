@@ -24,6 +24,7 @@ const Navbar = () => {
      
       <li><NavLink to = "/Product" className="nav_">Products</NavLink></li>
       <li><NavLink to = "/Contact" className="nav_">Contact Us</NavLink></li>
+      <li><NavLink to = "/Login" className="nav_ nav_login">Login</NavLink></li>
       {/* <li><NavLink to = "/Like" className="nav_"><AiOutlineHeart/></NavLink></li>
       <li><NavLink to = "/Cart" className="nav_ trolley"><BsCart3/></NavLink></li> */}
    </ul>
