@@ -13,7 +13,7 @@ const Errorpage = () => {
   </div>
   <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
   <div className='content_1'>Look like you're lost</div><br/>
-  <div className='content_2'>the page you are looking for not avaible!</div>
+  <div className='content_2'>the page you are looking for not available!</div>
   <NavLink to ="/">
 <button className='bt'> Home </button>
 </NavLink>

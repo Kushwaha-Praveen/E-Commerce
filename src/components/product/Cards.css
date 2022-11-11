@@ -83,6 +83,7 @@ font-size: 25px;
 
 /* @media screen and (max-width: 550px){
     .cards{
-    ;
+    height: 300px;
+    width: 200px;
     }
 }  */

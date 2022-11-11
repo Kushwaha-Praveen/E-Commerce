@@ -32,7 +32,7 @@ const Cart = ({ cart, setCart, handleChange }) => {
             <img src={item.img} alt="" />
             <p>{item.title}</p>
           </div>
-          <div>
+          <div className="inc_dec">
           <button className="decrease" onClick={() => handleChange(item, -1)}><span className="state_change">-</span></button>
           <button className="quantity">{item.amount}</button>
             <button className="increase" onClick={() => handleChange(item, 1)}><span className="state_change">+</span></button>
@@ -40,7 +40,7 @@ const Cart = ({ cart, setCart, handleChange }) => {
             
           </div>
           <div>
-            <span><BiRupee/>{item.price}</span>
+            <span className="cart_price_individual" ><BiRupee/>{item.price}</span>
             <button className="remove" onClick={() => handleRemove(item.id)}>Remove</button>
           </div>
         </div>
