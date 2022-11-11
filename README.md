@@ -3,4 +3,4 @@ Praveen Kushwaha
 SHOPHUB
 .
 .
-E-Commerece Website
+E-Commerce Website
