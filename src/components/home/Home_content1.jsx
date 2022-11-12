@@ -10,9 +10,9 @@ const Home_content1 = () => {
 <div className='container1'>
 <div className='grid'>
 <div className='data'>
-<p className='intro'>Welcome to</p>
 <h1 className='head'>SHOPHUB</h1>
-<p className='body_'>An E-Commerce Website where you can buy all yours Favourite Phones and <br/>Tablet at the lowest Price.</p>
+<p className='intro'>Welcome to <span className='shophub_head'>ShopHub</span></p>
+<p className='body_'>An E-Commerce Website where you can <br/> buy all yours Favourite Phones and <br/>Tablet at the lowest Price.</p>
 <NavLink to ="/Product">
 <button className='shop_now'> Shop Now <BiShoppingBag /> </button>
 </NavLink>

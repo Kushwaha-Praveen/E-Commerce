@@ -19,7 +19,7 @@ const Cards = ({ item, handleClick }) => {
     <>
 
 <div className='cards'>
-            <img src={img} alt='hey' height={280} width={200}/>
+            <img src={img} alt='' height={280} width={200}/>
             <hr/>
                 <h1 className="head_card">{title}</h1>
                 <hr/>
