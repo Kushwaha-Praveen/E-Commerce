@@ -3,7 +3,7 @@ import {CiDeliveryTruck } from "react-icons/ci";
 import {MdSupportAgent } from "react-icons/md";
 import {IoWalletOutline } from "react-icons/io5";
 import {TbDiscount2} from "react-icons/tb";
-const Service = () => {
+const Experties = () => {
   return (
    
     <>
@@ -54,4 +54,4 @@ const Service = () => {
   )
 }
 
-export default Service
+export default Experties

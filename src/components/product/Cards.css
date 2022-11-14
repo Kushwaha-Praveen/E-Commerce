@@ -74,6 +74,9 @@ margin: 22px;
     background-color: inherit;
     cursor: pointer;
 }
+.cart_button2:hover{
+    color: #FF0000;
+}
 .like_cards{
  
   /* border-style: solid;
